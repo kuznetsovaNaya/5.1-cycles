@@ -80,7 +80,7 @@ public class Main {
         float bankDeposit = 0;
         int savings = 29000;
         for (int i = 1; i <= 12; i++) {
-            bankDeposit = (bankDeposit + savings) + ((bankDeposit + savings) * 0.12f);
+            bankDeposit = (bankDeposit + savings) + ((bankDeposit + savings) * 0.01f);
             System.out.println("Месяц: " + i + ", накоплений: " + bankDeposit);
         }
     }
