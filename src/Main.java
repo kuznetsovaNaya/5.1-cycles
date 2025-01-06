@@ -12,7 +12,7 @@ public class Main {
     public static void task1() {
         System.out.println("task1");
         int digit = 1;
-        for (int i = 1; i<=10; i++){
+        for (int i = digit; i<=10; i++){
             System.out.println(i);
         }
     }
@@ -20,7 +20,7 @@ public class Main {
     public static void task2() {
         System.out.println("task2");
         int digit = 10;
-        for (int i = 10; i>0; i--){
+        for (int i = digit; i>0; i--){
             System.out.println(i);
         }
     }
